@@ -60,9 +60,10 @@ a:hover {
         transform: rotate(45deg) translate(20px,20px);
     }
 }
-.page-title {
+#page-title {
     font-style: italic;
     font-weight: bold;
+    background: none;
 }
 /*Navigation Bar*/
 .navbar {
@@ -78,12 +79,12 @@ a:hover {
 }
 .navbar ul li {
     float: right;
-    width: 15%;
+    width: 20%;
     align-content: left;
 }
 .navbar ul li:nth-child(1){
     float: left;
-    width: 75%;
+    width: 70%;
 }
 .navbar ul li a {
     color: white;
@@ -96,6 +97,9 @@ a:hover {
     text-decoration: none;
     border-bottom: 1px solid green;
 } 
+.navbar ul li a:nth-child(1):hover {
+    text-decoration: none;
+}
   /* Dropdown button */
   .dropdown .dropbtn { 
     border-bottom: none;
